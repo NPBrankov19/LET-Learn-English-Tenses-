@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a01b73e4-5bfd-4edb-b2f3-9151c54f8e3c}</ProjectGuid>
+    <ProjectGuid>{f8a46610-d3fd-4347-8326-19095d76e7fa}</ProjectGuid>
     <RootNamespace>LETLearnEnglishTenses</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
