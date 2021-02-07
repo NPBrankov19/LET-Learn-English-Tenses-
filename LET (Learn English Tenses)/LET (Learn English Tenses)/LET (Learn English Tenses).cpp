@@ -1090,6 +1090,454 @@ void practisePresentContinuousTenseEx5(string mutualChoice)
 		points++;
 	}
 }
+void displayTheUsageOfPastSimpleTense(string mutualChoice)
+{
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\t\t\t\t\t    The Usage Of Past Simple Tense.");
+	printf("\n\n\n 1. We use it with finished actions, states or habits in the past when we have a finished time word.");
+	printf("\n\n\t- I went to the cinema yesterday.\n");
+	printf("\n\t- We spent a lot of time in Japan in 2007.");
+	printf("\n\n\n 2. We use it with finished actions, states or habits in the past when we know that the time period has finished.");
+	printf("\n\n\t- Leonardo painted the Mona Lisa.\n");
+	printf("\n\t- The Vikings invaded Britain.");
+	printf("\n\n\n 3. For stories or lists of events, we often use the past simple for the actions in the story.");
+	printf("\n\n\n\t- He went to a cafe. People were chatting and music was playing. He sat down and ordered a coffee.");
+	printf("\n\n\n\n\t\t\t\t\t\t\t\tPress Enter To Continue: ");
+	getline(cin, mutualChoice);
+}
+void practisePastSimpleTenseEx1(string mutualChoice)
+{
+	string sentence[10] = { "1. Tom looks out of the window.","2. We arrive at 6.30.",
+	"3. Laura watches television all afternoon.","4. The bus stops at the end of the street.",
+	"5. I visit an old castle on Saturday.","6. Sue waits for her friends for more than an hour.",
+	"7. They decide to come to my party.","8. He does his test.",
+	"9. Ivan and George play football.","10. Susan study more than us." };
+	string condition[1] = { "Enter The Past Simple Form Of The Sentence: " };
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\nEx.1 Change The Sentences Into Past Simple Tense.");
+	cout << "\n\n" << sentence[0];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Tom looked out of the window." || mutualChoice == "Tom looked out of the window")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[1];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "We arrived at 6.30." || mutualChoice == "We arrived at 6.30")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[2];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Laura watched television all afternoon." || mutualChoice == "Laura watched television all afternoon")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[3];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "The bus stopped at the end of the street." || mutualChoice == "The bus stopped at the end of the street")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[4];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "I visited an old castle on Saturday." || mutualChoice == "I visited an old castle on Saturday")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[5];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Sue waited for her friends for more than an hour." ||
+		mutualChoice == "Sue waited for her friends for more than an hour")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[6];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "They decided to come to my party." || mutualChoice == "They decided to come to my party")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[7];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "He did his test." || mutualChoice == "He did his test")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[8];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Ivan and George played football." || mutualChoice == "Ivan and George played football")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[9];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Susan studied more than us." || mutualChoice == "Susan studied more than us")
+	{
+		points++;
+	}
+}
+void practisePastSimpleTenseEx2(string mutualChoice)
+{
+	string sentence[10] = { "1. I watch TV last week.","2. We eated meat with my best friend yesterday.",
+	"3. The bus stoped a few minutes ago.","4. I meeted my wife 9 years ago.",
+	"5. She leaved the school in 2010.","6. He buyed a new house last month.",
+	"7. I readed an interesting book yesterday.","8. We do a lot of job before 3 days.",
+	"9. She finish her work at six o'clock yesterday.","10. I goed to bed early two days ago." };
+	string condition[1] = { "Enter The Correct Form Of The Mistake: " };
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\nEx.2 Correct The Mistakes (Only The Incorrect Word).");
+	cout << "\n\n" << sentence[0];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "watched")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[1];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "ate")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[2];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "stopped")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[3];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "met")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[4];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "left")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[5];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "bought")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[6];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "read")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[7];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "did")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[8];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "finished")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[9];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "went")
+	{
+		points++;
+	}
+}
+void practisePastSimpleTenseEx3(string mutualChoice)
+{
+	string sentence[10] = { "1. Did she ___ her room?","2. We ___ good friends before.",
+	"3. They ___ in Spain two years ago.","4. An old man ___ down in front of my eyes yesterday.",
+	"5. Marry ___ to turn of the light.","6. Did they ___ the match?",
+	"7. I ___ to school yesterday.","8. A gardener _____ dead leaves.",
+	"9. Amelia ___ to stay with her father.","10. George ___ home very late last night." };
+	string condition[1] = { "Enter The Correct Answer (Enter The Letter Only!): " };
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\nEx.3 Choose The Correct Answer.");
+	cout << "\n\n" << sentence[0];
+	printf("\n\n\ta) clean  b) cleaned");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[1];
+	printf("\n\n\ta) were  b) are");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[2];
+	printf("\n\n\ta) life  b) lived");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[3];
+	printf("\n\n\ta) sat  b) sitted");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[4];
+	printf("\n\n\ta) forget  b) forgot");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[5];
+	printf("\n\n\ta) lost  b) lose");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[6];
+	printf("\n\n\ta) went  b) goed");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[7];
+	printf("\n\n\ta) sweeped up  b) swept up");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[8];
+	printf("\n\n\ta) chose  b) choosed");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[9];
+	printf("\n\n\ta) comed b) came");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+}
+void practisePastSimpleTenseEx4(string mutualChoice)
+{
+	string sentence[10] = { "1. Tim arrived at 2.00.","2. Sam phoned home.",
+	"3. Helen wanted to make a phone call.","4. Paul visited the doctor.",
+	"5. Bill missed the bus.","6. George walked to school.",
+	"7. Jim opened the window.","8. Emma helped the teacher.",
+	"9. Alice washed her hair.","10. Nikol went to bed." };
+	string condition[1] = { "Enter The Past Simple Form Of The Sentence: " };
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\nEx.4 Change The Sentences Into Past Simple Tense Questions.");
+	cout << "\n\n" << sentence[0];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Tim arrive at 2.00?" || mutualChoice == "Did Tim arrive at 2.00")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[1];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Sam phone home?" || mutualChoice == "Did Sam phone home")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[2];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Helen want to make a phone call?" || mutualChoice == "Did Helen want to make a phone call")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[3];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Paul visit the doctor?" || mutualChoice == "Did Paul visit the doctor")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[4];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Bill miss the bus?" || mutualChoice == "Did Bill miss the bus")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[5];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did George walk to school?" || mutualChoice == "Did George walk to school")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[6];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Jim open the window?" || mutualChoice == "Did Jim open the window")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[7];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Emma help the teacher?" || mutualChoice == "Did Emma help the teacher")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[8];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Alice wash her hair?" || mutualChoice == "Did Alice wash her hair")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[9];
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "Did Nikol go to bed?" || mutualChoice == "Did Nikol go to bed")
+	{
+		points++;
+	}
+}
+void practisePastSimpleTenseEx5(string mutualChoice)
+{
+	string sentence[10] = { "1. A: What ___ you do yesterday?\n  B: I did nothing all day.",
+	"2. A: How did you ___ with the test?\n  B: I did it very well.","3. A: What did you say?\n  B: I ___ that you are cool.",
+	"4. A: What did you see at the Zoo?\n  B: I ___ tigers.","5. A: Where did you go on holidays?\n  B: I ___ to Paris.",
+	"6. A: Where ___ you yesterday at 5.00?\n  B: I was at home.","7. A: Why didn't you learn your French words?\n  B: I ___.",
+	"8. A: What ___ you do last Saturday?\n  B: I studied.","9. A: What did you do?\n  B: I ___ a homework.",
+	"10. A: What did he take?\n  B: He ___ nothing." };
+	string condition[1] = { "Enter The Correct Answer (Enter The Letter Only!): " };
+	system("cls");
+	printf("\t\t\t\t\t   Welcome to LET (Learn English Tenses)!");
+	printf("\n\n\nEx.5 Choose The Correct Answer.");
+	cout << "\n\n" << sentence[0];
+	printf("\n\n\ta) did  b) do");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[1];
+	printf("\n\n\ta) do  b) did");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[2];
+	printf("\n\n\ta) say  b) said");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[3];
+	printf("\n\n\ta) saw  b) see");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[4];
+	printf("\n\n\ta) went  b) go");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[5];
+	printf("\n\n\ta) are  b) were");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[6];
+	printf("\n\n\ta) forgot  b) forget");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[7];
+	printf("\n\n\ta) do  b) did");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[8];
+	printf("\n\n\ta) wrote  b) write");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "a" || mutualChoice == "a)")
+	{
+		points++;
+	}
+	cout << "\n\n" << sentence[9];
+	printf("\n\n\ta) take b) took");
+	cout << "\n\n" << condition[0];
+	getline(cin, mutualChoice);
+	if (mutualChoice == "b" || mutualChoice == "b)")
+	{
+		points++;
+	}
+}
 int main()
 {
 
